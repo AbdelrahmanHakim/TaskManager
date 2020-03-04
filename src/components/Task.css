@@ -1,0 +1,33 @@
+
+.Task {
+    padding: 2%;
+    margin-left: 5%;
+    width: 85%;
+    height: 100px;
+    background-color: #FFFFFF ;
+    box-shadow: 0px 3px 6px #00000029;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+
+}
+
+.checkbox{
+    padding: 20px 20px;
+    
+}
+
+.tasks{
+
+    float: left;
+}
+
+.icons{
+   
+    display: flex;
+    padding-right:2% ;
+}
+
+.icons img{
+    padding-left: 10px;
+}

@@ -1,0 +1,26 @@
+.latestTasks{
+    margin-top:3%;
+    padding-top: 1%;
+    padding-left: 1%;
+    width: 350px;
+    height: 200px;
+    background-color: #FFFFFF ;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 12px;
+    opacity: 1;
+    margin: 0 5% 0 5%;
+}
+
+.latestTasks li{
+    color:#8F9EA2;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .latestTasks{
+      width: 100%;
+      height: 200px;
+      border-radius: 0px;
+      margin: 3% 0 3% 0%;
+    }
+    }

@@ -1,0 +1,85 @@
+.taskheading{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.taskLabel{
+    margin-left: 5%;
+    
+}
+.searchBar{
+    border-radius: 12px;
+    justify-self: center;
+    width: 400px;
+    text-align: center;
+    border-style: groove;
+    justify-self: flex-end; 
+    height: 40px;
+   
+}
+
+.newTaskButton{
+    font-family: "Source Sans Pro", sans-serif;
+    appearance: none;
+    outline: 0;
+    background-color: #5285EC ;
+    border: 0;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    width: 120px;
+    font-size: 18px;
+    border-radius: 12px;
+     
+      
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .taskheading{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2%;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .taskLabel{
+        margin-left: 45% ;
+        margin-bottom: 5%;
+    }
+  
+    .newTaskButton{
+        font-family: "Source Sans Pro", sans-serif;
+        appearance: none;
+        outline: 0;
+        background-color: #5285EC ;
+        border: 0;
+        padding: 10px 15px;
+        color: #FFFFFF;
+        width: 100%;
+        font-size: 18px;
+        border-radius: 12px;
+        justify-self: flex-end; 
+        margin-left: 4% ;
+        margin-bottom: 5%; 
+          
+    
+    }
+    .searchBar{
+        border-radius: 12px;
+        justify-self: center;
+        width: 400px;
+        text-align: center;
+        border-style: groove;
+        justify-self: flex-end; 
+        height: 40px;
+        margin-bottom: 3%;
+        margin-left: 4%;
+       
+    }
+    
+  }
